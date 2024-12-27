@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+    height: 150px;
+    width: 400px;
+    background-color: rgb(243, 242, 241);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+h2{
+    color: red;
+    text-align: center;
+    font-size: 2.5rem;
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: seagreen;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+button:active{
+    scale: 0.9;
+}

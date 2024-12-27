@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(238, 238, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: black;
+    position: relative;
+}
+.icons{
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+.mess{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1px;
+}
+.icons i{
+    padding: 9px;
+}
+.full{
+    display: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    position: absolute;
+    background-size:cover;
+    background-position: center;
+    padding: 15px 10px;
+}
+.progress{
+    height: 5px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: rgba(245, 245, 245, 0.316);
+}
+.growth{
+    height: 100%;
+    width: 0%;
+    background-color: rgba(7, 7, 7, 0.683);
+    border-radius: 50px;
+}
+h2{
+    color: white;
+    font-size: 20px;
+    margin-top: 3px;
+    font-weight: 600;
+}
+.storyian{
+    height: 100px;
+    width: 100%;
+    border-bottom: solid 1px #888;
+    padding: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.story{
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 3px;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border: solid 3px red;
+    border-radius: 50%;
+    
+}
+.story img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.storyian::-webkit-scrollbar{
+    display: none;
+}

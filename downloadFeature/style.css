@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border-radius: 15px;
+    width: 450px;
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.growth{
+    height: 20px;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+.dets{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 280px;
+}
+.progress{
+    height: 100%;
+    width: 0%;
+    object-fit: cover;
+    background-color: green;
+}
+button{
+    padding: 4px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+h3{
+    margin-left: 10px;
+}
